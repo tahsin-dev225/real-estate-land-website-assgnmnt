@@ -1,0 +1,145 @@
+
+     [
+      {
+        "id": "1",
+        "name": "Greenwood Acres",
+        "location": {
+          "address": "123 Oak Street",
+          "city": "Greenville",
+          "state": "TX",
+          "zip": "75001",
+          "latitude": 32.123456,
+          "longitude": -97.123456
+        },
+        "size": {
+          "total_area": "5000 sq ft",
+          "dimensions": "50x100 ft"
+        },
+        "price": {
+          "amount": 75000,
+          "currency": "USD"
+        },
+        "description": "A beautiful piece of land located in a growing area with excellent potential for development.",
+        "features": [
+          "Near public transportation",
+          "Close to schools and parks",
+          "Zoned for residential use"
+        ],
+        "images":   "https://i.ibb.co.com/5MkMXfD/pexels-davidmcbee-388830.jpg",
+        "availability": "For Sale"
+      },
+      {
+        "id": "2",
+        "name": "Sunny Meadows",
+        "location": {
+          "address": "456 Maple Avenue",
+          "city": "Sunnytown",
+          "state": "CA",
+          "zip": "90210",
+          "latitude": 34.567890,
+          "longitude": -118.567890
+        },
+        "size": {
+          "total_area": "7500 sq ft",
+          "dimensions": "75x100 ft"
+        },
+        "price": {
+          "amount": 100000,
+          "currency": "USD"
+        },
+        "description": "Spacious land with a great view, ideal for building your dream home.",
+        "features": [
+          "Panoramic views",
+          "Quiet neighborhood",
+          "Utilities available"
+        ],
+        "images":   "https://i.ibb.co.com/HBC53Vy/pexels-curtis-adams-1694007-8031873.jpg",
+        "availability": "For Sale"
+      },
+      {
+        "id": "3",
+        "name": "Riverside Retreat",
+        "location": {
+          "address": "789 River Road",
+          "city": "Riverside",
+          "state": "FL",
+          "zip": "32123",
+          "latitude": 27.987654,
+          "longitude": -81.987654
+        },
+        "size": {
+          "total_area": "9000 sq ft",
+          "dimensions": "90x100 ft"
+        },
+        "price": {
+          "amount": 120000,
+          "currency": "USD"
+        },
+        "description": "Lovely land with river access, perfect for a vacation home or investment property.",
+        "features": [
+          "River access",
+          "Great for recreational use",
+          "Surrounded by nature"
+        ],
+        "images":   "https://i.ibb.co.com/sQMqKTx/pexels-alexander-f-ungerer-157458816-19814654.jpg",
+        "availability": "For Sale"
+      },
+      {
+        "id": "4",
+        "name": "Hilltop Haven",
+        "location": {
+          "address": "101 Hillcrest Lane",
+          "city": "Hilltown",
+          "state": "CO",
+          "zip": "80401",
+          "latitude": 39.123456,
+          "longitude": -105.123456
+        },
+        "size": {
+          "total_area": "6000 sq ft",
+          "dimensions": "60x100 ft"
+        },
+        "price": {
+          "amount": 90000,
+          "currency": "USD"
+        },
+        "description": "Elevated land with spectacular mountain views, ideal for a luxury home or cabin.",
+        "features": [
+          "Mountain views",
+          "Elevated location",
+          "Secluded area"
+        ],
+        "images": "https://i.ibb.co.com/mySGXQ5/pexels-pok-rie-33563-5400682.jpg",
+        "availability": "For Sale"
+      },
+      {
+        "id": "5",
+        "name": "Urban Oasis",
+        "location": {
+          "address": "202 City Plaza",
+          "city": "Metropolis",
+          "state": "NY",
+          "zip": "10001",
+          "latitude": 40.712776,
+          "longitude": -74.005974
+        },
+        "size": {
+          "total_area": "3000 sq ft",
+          "dimensions": "30x100 ft"
+        },
+        "price": {
+          "amount": 200000,
+          "currency": "USD"
+        },
+        "description": "Prime urban land in the heart of the city, perfect for commercial development or high-end residential units.",
+        "features": [
+          "Prime location",
+          "High foot traffic",
+          "Zoned for commercial or residential use"
+        ],
+        "images":  "https://i.ibb.co.com/dGXFXXk/pexels-stephen-morse-774975103-18964965.jpg",
+        
+        "availability": "For Sale"
+      }
+    ]
+  

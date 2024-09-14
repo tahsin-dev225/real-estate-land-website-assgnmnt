@@ -1,0 +1,22 @@
+
+
+.bgfirst{
+    background-image: url('../assets/rancher.jpg');
+    background-repeat: no-repeat;
+    
+}
+.bgsecond{
+    background-image: url('../assets/agricultural.jpg');
+    background-repeat: no-repeat;
+    
+}
+.bgthird{
+    background-image: url('../assets/vineyard.jpg');
+    background-repeat: no-repeat;
+    
+}
+.bgfour{
+    background-image: url('../assets/farms-slider1.jfif');
+    background-repeat: no-repeat;
+    
+}
