@@ -14,7 +14,7 @@ const Details = () => {
             <Navbar></Navbar>
             <h1 className="text-5xl font-semibold text-center my-5">Land Details</h1>
             <div className="text-center md:w-6/12 mx-auto mb-5">Take a look on this land . You may have know the the value of this land. Buy your dream land from land market.</div>
-            <div className="flex my-8 gap-6 items-center dark:bg-[#222630fa] p-3 rounded-md shadow ">
+            <div className="lg:flex my-8 mx-auto w-[95%] gap-6 items-center dark:bg-[#222630fa] p-3 rounded-md shadow ">
                 <div className="p-5 ">
                     <img className="rounded-md  " src={images} alt="" />
                 </div>
@@ -31,11 +31,13 @@ const Details = () => {
                         <p className="">Area : <span className="text-red-400">{size.total_area}</span></p>|
                         <p className=""> Dimensions : <span className="text-red-400">{size.dimensions}</span></p>
                     </div>
-                    <div className="my-2 md:text-xl md:flex items-center md:font-semibold">
-                        <p className="flex flex-grow items-center gap-2"><FaLocationDot className="text-red-600" />Address : {location.address}</p>
-                        <p className="flex flex-grow items-center gap-2"><FaLocationDot className="text-red-600" />City : {location.city}</p>
+                    <div className="my-2 md:text-xl md:flex items-center gap-1 md:font-semibold">
+                        <p className="flex justify-center border border-gray-700 p-1 rounded flex-grow items-center gap-2"><FaLocationDot className="text-red-600" />Address : {location.address}</p>
+                        <p className="flex justify-center border border-gray-700 p-1 rounded flex-grow items-center gap-2"><FaLocationDot className="text-red-600" />City : {location.city}</p>
                     </div>
-                    <button className="btn btn-primary px-10 ">Buy Now</button>
+                    <div className="flex md:justify-center my-6">
+                        <button className="btn btn-primary w-[80%] mx-auto md:px-10 ">Buy Now</button>
+                    </div>
                 </div>
             </div>
         </div>

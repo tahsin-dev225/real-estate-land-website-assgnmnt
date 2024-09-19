@@ -7,7 +7,7 @@ import { AuthContext } from "../../Provider/AuthProvider";
 const UserUpdate = () => {
     const [updateUser,setUpdateUser] = useState(null)
 
-    const {updating,updatePro} =useContext(AuthContext)
+    const {updating,updatePro,setUser} =useContext(AuthContext)
 
      const handleUpdate =(e)=>{
         e.preventDefault();
@@ -17,9 +17,9 @@ const UserUpdate = () => {
         const photo = form.get('photo');
 
         updating(name,photo)
-        // .then(()=>{
-        //     console.log(name,photo)
-        //     setUpdateUser(name,photo)
+        // .then((res)=>{
+        //     console.log({res})
+        //     setUser(res)
         // })
         // .catch(errror =>{console.log(errror)})
      }

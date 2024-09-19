@@ -41,7 +41,7 @@ const Navbar = () => {
                     {links}
                 </ul>
                 </div>
-                <a className="font-bold m-0 text-xl flex gap-2 items-center"> <GiIsland></GiIsland><div className="gap-0"><h1 className="m-0">Land</h1><p className="text-base font-normal m-0">Market</p></div> </a>
+                <a className="font-bold m-0 text-xl flex gap-2 items-center"> <GiIsland></GiIsland><div className="gap-0"><h1 className="leading-none">Land</h1><p className="text-sm font-normal m-0 leading-none">Market</p></div> </a>
             </div>
             
             <div className="navbar-center hidden lg:flex">
@@ -54,6 +54,7 @@ const Navbar = () => {
                 
                 {/* <Link to='/register' className="btn">Register</Link> */}
                 {user ? <>
+                    <h2 className="hidden sm:flex">{user.displayName}</h2>
                     <button onClick={handleLogOut} className="btn ">Log Out</button>
                     <h1 className="flex  items-center border p-1 rounded px-2 border-gray-600">
                         <CgProfile></CgProfile>

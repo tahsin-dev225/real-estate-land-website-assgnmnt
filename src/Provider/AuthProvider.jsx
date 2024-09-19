@@ -31,8 +31,12 @@ const AuthProviders = ({children}) => {
     }
 
     const updating = (name,photo)=>{
-            setLoading(true)
-        return updateProfile(auth.currentUser,{displayName:name,photoURL:photo},setUpdatePro(name,photo))
+            // setLoading(true)
+        updateProfile(auth.currentUser,{displayName:name,photoURL:photo})
+        .then(() =>{
+            setUser({...user,displayName:name,photoURL:photo})
+        })
+
         
     }
 
@@ -48,7 +52,7 @@ const AuthProviders = ({children}) => {
         
     },[])
 
-    const authInfo={createUser,user,logOut,signIn,updating,updatePro,loading}
+    const authInfo={createUser,user,logOut,signIn,updating,updatePro,loading,setUser}
     return (
         <AuthContext.Provider value={authInfo}>
             {children}

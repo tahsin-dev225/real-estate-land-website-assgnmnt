@@ -23,9 +23,9 @@ const Land = ({land}) => {
                         <p className="">Address : {location.address}</p>
                         <p className="">City : {location.city}</p>
                     </div>
-                    <NavLink to={`/details/${id}`} className="md:h-9 h-8 py-1 flex items-center
+                    <NavLink to={`/details/${id}`} className="md:h-9 w-28 lg:w-36 h-8 py-1 flex items-center
                      bg-orange-400 text-black lg:font-semibold gap-2 px-3 rounded border">
-                        <span className="hidden :flex">View</span>
+                        <span className="hidden  lg:flex">View</span>
                          Details <FaArrowRight className="text-stone-700" /></NavLink>
                 </div>
                 
